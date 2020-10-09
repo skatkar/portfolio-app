@@ -1,0 +1,112 @@
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/coffee5.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.main-footer {
+    /* display: none; */
+}
+
+.greeting__header{
+    font-weight: bold;
+    color: #f0f0f0;
+    font-size: 3rem;
+    line-height: 1.6;
+}
+
+.greeting__main {
+    font-size: 1.5rem;
+    font-style: italic;
+    color:rgb(194, 138, 138);
+}
+
+.contact__links {
+    list-style: none;
+    padding: 0%;
+}
+
+.contact__links a:hover {
+    text-decoration: none;
+    cursor: help;
+} 
+
+.contact__link {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.fa {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    /* width: 5rem;
+    height: 5rem; */
+    text-align: center;
+    text-decoration: none;
+    margin: 0.1rem 0.3rem;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa span {
+    display: none;
+}
+
+.fa:hover span {
+    border: #666 2px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background: #e3e3e3;
+    left: 0px;
+    margin: 15px;
+    width: 300px;
+    position: absolute;
+    top: 15px;
+    text-decoration: none;
+}
+
+
+.fa-envelope {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-github {
+    background: #1d1e1f;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+@media (min-width: 40rem) {
+    .fa {
+        padding: 1.5rem;
+        font-size: 2rem;
+        width: 5rem;
+        height: 5rem;
+    }
+}

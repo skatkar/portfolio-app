@@ -1,0 +1,41 @@
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/desk.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.app-logo {
+    height: 2.5rem;
+    vertical-align: middle;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.main-footer {
+    /* display: none; */
+}
+.user-name{
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 3rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.job-position {
+    font-size: 1.5rem;
+    font-style: italic;
+    color:rgb(144, 8, 8);
+    /* position: absolute;
+    right: -12rem; */
+}
