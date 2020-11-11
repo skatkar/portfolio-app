@@ -7,6 +7,10 @@
     position: relative;
 }
 
+p {
+    font-weight: bold;
+}
+
 .app-logo {
     height: 2.5rem;
     vertical-align: middle;
