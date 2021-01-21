@@ -40,7 +40,7 @@
 
 .contact__links a:hover {
     text-decoration: none;
-    cursor: help;
+    cursor: pointer;
 } 
 
 .contact__link {
